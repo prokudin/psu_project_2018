@@ -13,13 +13,13 @@ conf['screen mode']='plain'
 
 ############################################################################
 # mcsetup
-
-conf['method']='kde'
-conf['itmax']=None
+conf['nruns']=10
+conf['factor']=2
 conf['tol']=1e-6
-conf['kde bw']=None
-conf['num points factor']=10
-
+conf['itmax']=int(1e7)
+conf['block size']=1000
+conf['kappa']=1.3
+conf['nll shift']=0
 
 ############################################################################
  
