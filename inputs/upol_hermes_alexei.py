@@ -14,7 +14,7 @@ conf['screen mode']='plain'
 ############################################################################
 # mcsetup
 conf['nruns']=10
-conf['factor']=2
+conf['factor']=3
 conf['tol']=1e-6
 conf['itmax']=int(1e7)
 conf['block size']=1000
@@ -31,8 +31,8 @@ conf['basis']='default'
 
 
 conf['params']['pdf']={}
-conf['params']['pdf']['widths0 valence']  = {'value':<<    5.23523467386036500670e-01>>,'fixed':False,'min':0,'max':10}
-conf['params']['pdf']['widths0 sea']      = {'value':<<    5.79275645760695900854e-01>>,'fixed':False,'min':0,'max':10}
+conf['params']['pdf']['widths0 valence']  = {'value':<<    5.23523467386036500670e-01>>,'fixed':False,'min':0,'max':1}
+conf['params']['pdf']['widths0 sea']      = {'value':<<    5.79275645760695900854e-01>>,'fixed':False,'min':0,'max':1}
 
 conf['params']['ff']={}
 conf['params']['ff']['widths0 pi+ fav']   = {'value':<<    1.24066238734244951858e-01>>,'fixed':False,'min':0,'max':1}
