@@ -31,14 +31,14 @@ conf['basis']='default'
 
 
 conf['params']['pdf']={}
-conf['params']['pdf']['widths0 valence']  = {'value':<<    5.23523467386036500670e-01>>,'fixed':False,'min':0,'max':1}
-conf['params']['pdf']['widths0 sea']      = {'value':<<    5.79275645760695900854e-01>>,'fixed':False,'min':0,'max':1}
+conf['params']['pdf']['widths0 valence']  = {'value':<<    3.46756557393939901512e-01>>,'fixed':False,'min':0,'max':1}
+conf['params']['pdf']['widths0 sea']      = {'value':<<    4.79573263155317952577e-01>>,'fixed':False,'min':0,'max':1}
 
 conf['params']['ff']={}
-conf['params']['ff']['widths0 pi+ fav']   = {'value':<<    1.24066238734244951858e-01>>,'fixed':False,'min':0,'max':1}
-conf['params']['ff']['widths0 pi+ unfav'] = {'value':<<    1.43610957318586640596e-01>>,'fixed':False,'min':0,'max':1}
-conf['params']['ff']['widths0 k+ fav']    = {'value':<<    1.34331584518304875120e-01>>,'fixed':False,'min':0,'max':1}
-conf['params']['ff']['widths0 k+ unfav']  = {'value':<<    1.99535236959634459941e-01>>,'fixed':False,'min':0,'max':1}
+conf['params']['ff']['widths0 pi+ fav']   = {'value':<<    1.90423955457245608347e-01>>,'fixed':False,'min':0,'max':1}
+conf['params']['ff']['widths0 pi+ unfav'] = {'value':<<    1.83444644486758901003e-01>>,'fixed':False,'min':0,'max':1}
+conf['params']['ff']['widths0 k+ fav']    = {'value':<<    2.17103327817825653145e-01>>,'fixed':False,'min':0,'max':1}
+conf['params']['ff']['widths0 k+ unfav']  = {'value':<<    1.20865718593729243313e-01>>,'fixed':False,'min':0,'max':1}
 
 
 
@@ -56,8 +56,8 @@ conf['datasets']['sidis']['filters']={}
 conf['datasets']['sidis']['filters'][0]={}
 conf['datasets']['sidis']['filters'][0]['idx']=[1000,1001,1004,1005,1002,1003,1006,1007]
 #conf['datasets']['sidis']['filters'][0]['filter']="z<0.6 and Q2>1.69 and pT>0.2 and pT<0.9" # npts    = 978 chi2    = 1206.873681
-#conf['datasets']['sidis']['filters'][0]['filter']="z>0.2 and z<0.6 and Q2>1.69 and (pT/z)**2<0.25*Q2" # rapidity Gunar wrote z< 0.2 and z>0.8 are padding bins
-conf['datasets']['sidis']['filters'][0]['filter']="Q2>1.69 and z>0.2 and z<0.6 and pT>0.2 and pT<0.9" 
+conf['datasets']['sidis']['filters'][0]['filter']="z>0.2 and z<0.6 and Q2>1.69 and (pT/z)**2<0.25*Q2 and dy>0" # rapidity Gunar wrote z< 0.2 and z>0.8 are padding bins
+#conf['datasets']['sidis']['filters'][0]['filter']="Q2>1.69 and z>0.2 and z<0.6 and pT>0.2 and pT<0.9 and dy>-2" 
 
 conf['datasets']['sidis']['xlsx']={}
 
