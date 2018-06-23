@@ -51,6 +51,5 @@ def gen_config(file="", task=0, runid=0, reaction="sidis"):
 
 
 if __name__ == "__main__":
-    # conf = gen_config("../inputs/upol_hermes_noevolution.py", task=2)
     gen_config("../inputs/upol_hermes_alexei.py", task=2)
     conf_run(noexit=False)
