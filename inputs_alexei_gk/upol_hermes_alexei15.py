@@ -16,28 +16,28 @@ conf['params']={}
 # Parameters in gaussian approximation, parton model:
 # GK approximate
 conf['params']['gk']={}
-conf['params']['gk']['gk0']  ={'value':   -5.47429e-02,'min': -0.3,'max':0,'fixed':False}
-conf['params']['gk']['Q0']  ={'value':    1.84088e+00,'min':0.8,'max':4,'fixed':False}
+conf['params']['gk']['gk0']  ={'value':   -2.41254e-01,'min': -1.3,'max':0,'fixed':False}
+conf['params']['gk']['Q0']  ={'value':    1.69000e+00,'min':0.8,'max':4,'fixed':True}
 
 # TMD PDF:
 conf['params']['pdf']={}
-conf['params']['pdf']['widths1_uv']  ={'value':    2.74555e-01,'min': 0.1,'max':0.7,'fixed':False}
+conf['params']['pdf']['widths1_uv']  ={'value':    3.33877e-01,'min': 0.1,'max':0.7,'fixed':False}
 conf['params']['pdf']['widths2_uv']  ={'value':    0.00000e+00,'min':-1,'max':1,'fixed':True}
-conf['params']['pdf']['widths1_dv']  ={'value':    2.74555e-01,'min': 0,'max':1,'fixed':'widths1_uv'}
+conf['params']['pdf']['widths1_dv']  ={'value':    3.33877e-01,'min': 0,'max':1,'fixed':'widths1_uv'}
 conf['params']['pdf']['widths2_dv']  ={'value':    0.00000e+00,'min':-1,'max':1,'fixed':'widths2_uv'}
-conf['params']['pdf']['widths1_sea'] ={'value':    4.50266e-01,'min': 0.1,'max':0.9,'fixed':False}
+conf['params']['pdf']['widths1_sea'] ={'value':    3.48620e-01,'min': 0.1,'max':0.9,'fixed':False}
 conf['params']['pdf']['widths2_sea'] ={'value':    0.00000e+00,'min':-1,'max':1,'fixed':True}
 
 # TMD FF:
 conf['params']['ffpi']={}
-conf['params']['ffpi']['widths1_fav']   ={'value':    2.18903e-01,'min': 0,'max':0.5,'fixed':False}
+conf['params']['ffpi']['widths1_fav']   ={'value':    2.06618e-01,'min': 0,'max':0.5,'fixed':False}
 conf['params']['ffpi']['widths2_fav']   ={'value':    0.00000e+00,'min':-1,'max':1,'fixed':True}
-conf['params']['ffpi']['widths1_ufav'] ={'value':    2.06303e-01,'min': 0,'max':0.5,'fixed':False}
+conf['params']['ffpi']['widths1_ufav'] ={'value':    1.93806e-01,'min': 0,'max':0.5,'fixed':False}
 conf['params']['ffpi']['widths2_ufav'] ={'value':    0.00000e+00,'min':-1,'max':1,'fixed':True}
 conf['params']['ffk']={}
-conf['params']['ffk']['widths1_fav']    ={'value':    2.46874e-01,'min': 0,'max':0.5,'fixed':False}
+conf['params']['ffk']['widths1_fav']    ={'value':    2.30163e-01,'min': 0,'max':0.5,'fixed':False}
 conf['params']['ffk']['widths2_fav']    ={'value':    0.00000e+00,'min':-1,'max':1,'fixed':True}
-conf['params']['ffk']['widths1_ufav']  ={'value':    1.29770e-01,'min': 0,'max':0.5,'fixed':False}
+conf['params']['ffk']['widths1_ufav']  ={'value':    1.22684e-01,'min': 0,'max':0.5,'fixed':False}
 conf['params']['ffk']['widths2_ufav']  ={'value':    0.00000e+00,'min':-1,'max':1,'fixed':True}
 conf['params']['ffh']={}
 conf['params']['ffh']['widths1_fav']    ={'value':    1.32925e-01,'min': 0,'max':1,'fixed':True}
